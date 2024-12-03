@@ -1,4 +1,40 @@
+# Python bytecode files
 __pycache__/
+*.py[cod]
+
+# Virtual environment
 venv/
+env/
+
+# Distribution / packaging
+dist/
 build/
-is_ai_odd.egg-info/
+*.egg-info/
+
+# Test coverage
+*.cover
+*.hypothesis/
+.coverage
+
+# Pytest
+.cache/
+
+# IDE or editor specific
+.vscode/
+.idea/
+*.swp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+
+# Pylint
+.pylint.d/
+
+# VS Code settings
+.settings/
+
+# Windows
+Thumbs.db

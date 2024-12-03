@@ -1,12 +1,16 @@
 from setuptools import setup, find_packages
 
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
-    name='is_ai_odd',
-    version='1.0',
+    name='is-ai-odd',
+    version='1.1',
     author='trimpta',
     author_email='hi@trimpta.com',
     description='A Python package that leverages AI to identify odd patterns in data using generative models.',
-    long_description='The `is_ai_odd` package provides a simple interface to identify patterns in data that could be considered "odd" or out of place using Google\'s generative AI models. This package is designed for developers looking to integrate advanced machine learning techniques into their projects, without the need for deep AI expertise.',
+    long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/trimpta/is_ai_odd',
     packages=find_packages(),
