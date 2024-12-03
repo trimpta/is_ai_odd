@@ -1,2 +1,4 @@
 __pycache__/
 venv/
+build/
+is_ai_odd.egg-info/
