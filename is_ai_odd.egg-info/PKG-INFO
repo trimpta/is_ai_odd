@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: is_ai_odd
+Version: 1.0
+Summary: A Python package that leverages AI to identify odd patterns in data using generative models.
+Home-page: https://github.com/trimpta/is_ai_odd
+Author: trimpta
+Author-email: hi@trimpta.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: google-generativeai
+
+The `is_ai_odd` package provides a simple interface to identify patterns in data that could be considered "odd" or out of place using Google's generative AI models. This package is designed for developers looking to integrate advanced machine learning techniques into their projects, without the need for deep AI expertise.
